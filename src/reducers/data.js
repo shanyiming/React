@@ -25,12 +25,6 @@ const navItems = [
 
         },
         {
-          label: 'Button',
-          url: BASE_URL + 'components/button',
-          icon: 'NavigateNext'
-
-        },
-        {
           label: 'Chips',
           url: BASE_URL + 'components/chips',
           icon: 'NavigateNext'

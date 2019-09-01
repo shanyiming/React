@@ -137,37 +137,7 @@ iframe {
 #root.no-margin-left {
   margin-left: 0;
 }
-.area-display {
-  justify-content: center;
-  display: flex;
-}
-.circular-display {
-  justify-content: center;
-  display: flex;
-  margin: auto;
-}
-.bar-display {
-  justify-content: center;
-  display: flex;
-}
-.line-display {
-  justify-content: center;
-  display: flex;
-}
-.lineMark-display {
-  justify-content: center;
-  display: flex;
-}
 .pie-display {
-  justify-content: center;
-  display: flex;
-  margin: auto;
-}
-.scatterplot-display {
-  display: flex;
-  justify-content: center;
-}
-.stack-display {
   justify-content: center;
   display: flex;
   margin: auto;
@@ -211,16 +181,6 @@ iframe {
   justify-content: space-around;
   overflow: auto;
 }
-.buttons {
-  width: 100%;
-  display: flex;
-  margin: 10px 0;
-  justify-content: space-around;
-  align-items: center;
-  height: 60px;
-  border-top: 1px solid #002f6c;
-  border-bottom: 1px solid #002f6c;
-}
 .home {
   background-color: #fff !important;
   border-radius: 25px;
@@ -239,7 +199,7 @@ iframe {
   text-align: left;
 }
 .icon-paper {
-  background-color: #fffff0 !important;
+  background-color: #fff !important;
   text-align: center !important;
 }
 .icons-display {
@@ -247,7 +207,7 @@ iframe {
   display: flex;
 }
 .icon-title {
-  color: #17324d;
+  color: #002f6c;
   font-weight: 900;
   padding-top: 30px;
 }
@@ -261,15 +221,15 @@ iframe {
   height: 40px;
 }
 .paper {
-  background-color: #fffff0 !important;
+  background-color: #fff !important;
   text-align: center !important;
   overflow: auto !important;
 }
 .paper header {
   width: 100% !important;
 }
-.templete-appbar {
-  background-color: #a52a2a !important;
+.templet-appbar {
+  background-color: #002f6c !important;
   overflow: auto !important;
 }
 .tab-content {

@@ -11,10 +11,7 @@ class MyPie extends Component
     const myData = [
     {angle: 1, label: ''},
     {angle: 2, label: ''},
-    {angle: 3, label: ''},
-    {angle: 4, label: ''},
-    {angle: 5, label: ''},
-    {angle: 6, label: ''}
+    {angle: 3, label: ''}
   ]
     return (
       <div className = "pie-display">
@@ -32,10 +29,7 @@ class MyPie extends Component
     const myData = [
     {angle: 1, label: 'Type 1'},
     {angle: 2, label: 'Type 2'},
-    {angle: 3, label: 'Type 3'},
-    {angle: 4, label: 'Type 4'},
-    {angle: 5, label: 'Type 5'},
-    {angle: 6, label: 'Type 6'}
+    {angle: 3, label: 'Type 3'}
     ]
     return (
       <div>

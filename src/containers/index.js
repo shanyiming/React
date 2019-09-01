@@ -8,7 +8,6 @@ import MyHome from '../components/contentlist/Home/home.js';
 import Error from '../components/contentlist/Error/error.js';
 import Footer from './footer/footer.js';
 import MyAvatar from '../components/contentlist/Components/Avatar/avatar.js';
-import MyButtons from '../components/contentlist/Components/Buttons/buttons.js';
 import MyChips from '../components/contentlist/Components/Chips/chips.js';
 import MyVerticalBar from '../components/contentlist/Charts/VerticalBar/verticalBar.js';
 import MyPie from '../components/contentlist/Charts/Pie/pie.js';
@@ -37,7 +36,6 @@ class App extends React.Component
              <Route path = "/my-app" component = {MyHome} key = "/my-app" exact/>
              <Route path = "/colors" component = {MyColor} key = "/colors"/>
              <Route path = "/icons" component = {MyIcon} key = "/icons"/>
-             <Route path = "/components/button" component = {MyButtons} key = "/components/button"/>
              <Route path = "/components/chips" component = {MyChips} key = "/components/chips"/>
              <Route path = "/components/avatar" component = {MyAvatar} key = "/components/avatar"/>
              <Route path = "/charts/verticalbar" component = {MyVerticalBar} key = "/charts/verticalbar"/>
